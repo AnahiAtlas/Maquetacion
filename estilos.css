@@ -6,21 +6,21 @@
 
 html{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px    ;
+    font-size: 16px;
 }
 
 #contenedor{
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-}
+    }
 
 .header{
     background-color: cornflowerblue;
     color: white;
     height: 60px;
     width: 85%;
-
+    margin-top: 15px;
 }
   
 .logo{
@@ -37,6 +37,17 @@ html{
     text-align: right;
 }
 
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    color:white;
+    background-color: darkblue;
+}
+
+.navbar ul li a:hover{
+    background-color: red;
+}
+
 .ul{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 16px ;
@@ -49,3 +60,59 @@ html{
     color: black;
     background-color: white;
 }
+
+.cuadro{
+    background-color: white;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 10px gray;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.cuadro2{
+    text-align: left;
+    display: inline-block;
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#banner{
+    float: right;
+    margin: 5px;
+    width: 20%;
+    height: 90%;
+    /*padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+	 border: solid 1px #000; */
+	background-color: gainsboro;
+	padding: 30px;
+	font-family: arial;
+    font-style: italic;
+    text-align: center;
+}
+
+.central{
+    border-top: solid 20px gray;
+    border-right: solid 20px gray;
+    border-bottom: solid 20px gray;
+    border-left: solid 20px gray;
+    float: left;
+    width: 70%;
+    height: 70%;
+ }
+
+ .footer{
+    margin: auto;
+     padding: 1px;
+     text-align: center;
+     float: inherit;
+ }
