@@ -4,89 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Maquetacion UTN-BA</title>
+
     <link rel="stylesheet" href="estilos.css">
-    <title>UTN-BA</title>
+    
 </head>
 
 <body id="contenedor">
-    
+    <main id="mainContent">
     <header class="header"> <!-- Cabecera del documento -->
         <div class="logo">
-            <a href= "index.html">
-                <h1>
-                    UTN-BA
-                </h1>
+            <a href= "/" class="LinkLogo">
+                <h1>                    UTN-BA                </h1>
             </a>
         </div>
     </header>
-    
 <hr align="left" width="25%" size="5">
-
 <nav class="navbar">
-<ul class="ul">
+<ul class="MenuPrincipal">
     <li>        <a href="index.html">            Home        </a>    </li>
     <li>        <a href= "noticias.html">            Noticias        </a>    </li>
     <li>        <a href= "noticia2.html">            Mas Noticias        </a>    </li>
     <li>        <a href="Contacto.html">            Contacto        </a>    </li>
+<!-- Limpiar floats -->
+<div class="limpiaFloat"></div>
 </ul>
-<section id="banner">
-    <p>
-      banner (iframe)
-      <br>
-      <br>
-      <br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br><br><br><br><br><br><br>
-      <br><br><br><br>
-   </p>
-</section>
-<section class="central">
-    <div class="cuadro">
-        <h3 class="titulo">
-            Titulo destacado
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores cum odio minus nobis corrupti obcaecati molestiae. Error animi magnam nemo blanditiis sapiente harum eligendi, dolorum cumque cupiditate sunt possimus.
-            <a href="Ventas.html"> <u>Ventas</u> </a> 
+</nav>
+
+<section id="portada">
+    <!-- <p> Portada </p> -->
+<article class="destacado">
+    <a href="noticias.html">
+        <h2 class="titulo">            Titulo de Noticia destacada        </h2>
+    </a>
+    <h3> Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+    <!-- <a href = "Noticias.html"> Ver más </a> -->
+</article>
+
+    <article class="cuadro2">
+        <figure class="imgNota">
+            <a href="noticias.html">
+                <img src="/Imagenes/descarga (1).jpg" alt="Nota 1">
+            </a>
+
+            <!-- <Figcaption>
+                epigrafe de la imagen
+            </figcaption> -->
+        </figure>
+        <h3 class="titulo">             Titulo de la noticia        </h3>
+           <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores cum odio minus nobis corrupti obcaecati molestiae. Error animi magnam nemo blanditiis sapiente harum eligendi, dolorum cumque cupiditate sunt possimus.
         </p>
-    </div>
-    <div class="cuadro2">
-        <h3 class="titulo">
-            Noticias
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores cum odio minus nobis corrupti obcaecati molestiae. Error animi magnam nemo blanditiis sapiente harum eligendi, dolorum cumque cupiditate sunt possimus.
-            <a href="noticias.html"> <u>Noticias</u> </a> 
+    </article>
+
+    <article class="cuadro2">
+        <figure class="imgNota">
+            <a href="noticia2.html">
+                <img src="./Imagenes/descarga (1.2).jpg" alt="Segunda Noticia">
+            </a> 
+        </figure>
+        <h3 class="titulo">             Segunda Noticia        </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores cum odio minus nobis corrupti obcaecati molestiae. Error animi magnam nemo blanditiis sapiente harum eligendi, dolorum cumque cupiditate sunt possimus.
+        <!--  <a href="Contacto.html"> <u>Contacto</u> </a>  -->   
         </p>
-    </div>
-    <div class="cuadro2">
-        <h3 class="titulo">
-            Mas Noticias
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores cum odio minus nobis corrupti obcaecati molestiae. Error animi magnam nemo blanditiis sapiente harum eligendi, dolorum cumque cupiditate sunt possimus.
-            <a href="noticia2.html"> <u>Mas Noticias</u> </a> 
+    </article>
+    
+    <article class="cuadro2">
+        <figure class="imgNota">
+            <a href="Contacto.html">
+                <img src="./Imagenes/images.png" alt="Contacto">
+            </a> 
+        </figure>
+        <h3 class="titulo">            Contacto        </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores cum odio minus nobis corrupti obcaecati molestiae. Error animi magnam nemo blanditiis sapiente harum eligendi, dolorum cumque cupiditate sunt possimus.
+            <!-- <a href="Ventas.html"> <u>Ventas</u> </a>  -->
         </p>
-    </div>
-    <div class="cuadro2">
-        <h3 class="titulo">
-            Contacto
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores cum odio minus nobis corrupti obcaecati molestiae. Error animi magnam nemo blanditiis sapiente harum eligendi, dolorum cumque cupiditate sunt possimus.
-            <a href="Contacto.html"> <u>Contacto</u> </a> 
+    </article>   
+
+    <article class="cuadro2">
+        <figure class="imgNota">
+            <a href="Contacto.html">
+                <img src="./Imagenes/contacto.png" alt="Nosotros">
+            </a>    
+        </figure>
+        <h3 class="titulo">            Conociendonos        </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores cum odio minus nobis corrupti obcaecati molestiae. Error animi magnam nemo blanditiis sapiente harum eligendi, dolorum cumque cupiditate sunt possimus.
+            <!-- <a href="Ventas.html"> <u>Ventas</u> </a>  -->
         </p>
-    </div>
-    <div class="cuadro2">
-        <h3 class="titulo">
-            Titulo destacado
-        </h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dolores cum odio minus nobis corrupti obcaecati molestiae. Error animi magnam nemo blanditiis sapiente harum eligendi, dolorum cumque cupiditate sunt possimus.
-            <a href="Ventas.html"> <u>Ventas</u> </a> 
-        </p>
-    </div>   
+    </article>   
+
+
+    <!-- Limpiar floats -->
+
+<div class="limpiaFloat"></div>
 </section>
 
-<footer>
-    <address class="footer">
-        Merlo. Buenos Aires
-    </address>
+<aside class="sidebar-der">
+    <!-- Acá va el banner -->
+    <span>
+        Insertar banner
+    </span>
+</aside>
+
+<footer class="footer">
+    <p>        Merlo. Buenos Aires    </p>
+    <p>        Desarrollado por <a href="/Imagenes/contacto.png>" mi </a> </p>
 </footer>
+
+</main>
 
 </body>
 </html>
